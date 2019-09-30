@@ -21,7 +21,25 @@ git tag 1.0.0 <tag>		pone tag
 git push origin --tag		sube el tag
 git tag -d <tag> 		borrar tag
 
+git request-pull <start> <origen>
 
+---------------------------------------------
+Maven 
+archivo pom.xml  ahí se meten las librerias y plugins,,, y demás
+ vmnrepository.com
+
+1 Generar un proyecto a partir del arquetipo quickstart:
+mvn archetype:generate -DgroupId=com.everis.bootcamp -DartifactId=taller-maven -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+mvn package
+compila proyecto
+
+mvn clean limpia la carpeta target 
+
+mvn clean package -Dmaven.test.skip=true   ..... esto es un comando encadenado, ... en el taller: Probar limpieza y empaquetamiento completo, csin compilar ni ejecutar las pruebas unitarias:
+
+mvn site  generar un sitio web con información del proyecto ,
 
 
 
