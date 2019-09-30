@@ -1,0 +1,29 @@
+git add    	mevor a staging
+git committ 	de estaging a repositorio local 
+git push 	de local a remoto
+
+git pull	traer de remoto a local
+git clone	traer del remoto a local configurado
+
+git branch 		crear rama
+git branch -d 		borrar rama 
+git checkout 		me muevo en esa rama
+git checkout master 	vuelve a la rama master (tronco)
+
+git push origin master 		sube al repositiorio remoto, a master
+git push origin rama1		sube al repositiorio remoto, a rama1
+
+git fetch 	sincroniza tu fichero de git con el del repositiorio princupall, comprueba que hay ramas nuevas y  te las trae.
+
+git merge <rama a fusionar>
+
+git tag 1.0.0 <tag>		pone tag
+git push origin --tag		sube el tag
+git tag -d <tag> 		borrar tag
+
+
+
+
+
+
+
