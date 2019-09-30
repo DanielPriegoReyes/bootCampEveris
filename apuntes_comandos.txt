@@ -1,5 +1,5 @@
 git add    	mevor a staging
-git committ 	de estaging a repositorio local 
+git commit -m 	de estaging a repositorio local  -m = descripción con "".
 git push 	de local a remoto
 
 git pull	traer de remoto a local
